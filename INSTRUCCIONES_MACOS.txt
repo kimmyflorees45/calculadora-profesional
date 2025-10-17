@@ -1,0 +1,39 @@
+🍎 CALCULADORA PROFESIONAL PARA macOS
+======================================
+
+📦 INSTALACIÓN SÚPER FÁCIL:
+
+1. Descarga el archivo .zip
+2. Extrae el contenido
+3. Haz doble clic en "Calculadora_macOS.command"
+4. ¡Listo! La calculadora se abrirá
+
+⚠️ PRIMERA VEZ:
+
+Si macOS te dice "no se puede abrir porque es de un desarrollador no identificado":
+1. Haz clic derecho en "Calculadora_macOS.command"
+2. Selecciona "Abrir"
+3. Clic en "Abrir" de nuevo
+4. Ya quedará autorizado para siempre
+
+✅ REQUISITOS:
+
+- macOS 10.12 o superior
+- Python 3 (ya viene incluido en macOS)
+
+💡 NOTA:
+
+El archivo .command es como un .exe en Windows.
+Solo haz doble clic y se ejecuta automáticamente.
+
+🎯 SOLUCIÓN DE PROBLEMAS:
+
+Si no funciona:
+1. Abre Terminal
+2. Escribe: chmod +x 
+3. Arrastra el archivo .command a la Terminal
+4. Presiona Enter
+5. Ahora haz doble clic en el archivo
+
+---
+¿Necesitas ayuda? Todos los usuarios de macOS tienen Python 3 instalado por defecto.

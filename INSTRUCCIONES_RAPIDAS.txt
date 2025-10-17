@@ -1,0 +1,175 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║     PÁGINA WEB DE DESCARGA - CALCULADORA PROFESIONAL            ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+
+✅ TODO LISTO PARA PUBLICAR
+═══════════════════════════════════════════════════════════════════
+
+La carpeta "web" contiene una página web completa que:
+
+  ✓ Detecta automáticamente el sistema operativo del usuario
+  ✓ Ofrece descarga directa para Windows (.exe)
+  ✓ Ofrece instalación automática para Linux (script)
+  ✓ Incluye instrucciones claras para cada plataforma
+  ✓ Diseño moderno y responsive (funciona en móvil)
+
+
+🚀 OPCIÓN 1: PROBAR LOCALMENTE (AHORA MISMO)
+═══════════════════════════════════════════════════════════════════
+
+1. Haz doble clic en: probar_local.bat
+
+2. Abre tu navegador en: http://localhost:8000
+
+3. ¡Verás la página funcionando!
+
+
+🌐 OPCIÓN 2: PUBLICAR EN INTERNET (GRATIS)
+═══════════════════════════════════════════════════════════════════
+
+MÉTODO A - GitHub Pages (Recomendado):
+───────────────────────────────────────────────────────────────────
+
+1. Crea una cuenta en GitHub (si no tienes)
+   → https://github.com
+
+2. Crea un nuevo repositorio:
+   • Nombre: calculadora-profesional
+   • Público
+   • Sin README inicial
+
+3. Sube los archivos de la carpeta "web":
+   • Arrastra todos los archivos a GitHub
+   • O usa Git:
+     
+     cd web
+     git init
+     git add .
+     git commit -m "Página web de calculadora"
+     git remote add origin https://github.com/TU-USUARIO/calculadora-profesional.git
+     git push -u origin main
+
+4. Activa GitHub Pages:
+   • Ve a Settings → Pages
+   • Source: Deploy from branch
+   • Branch: main → /root
+   • Save
+
+5. ¡Listo! Tu página estará en:
+   https://TU-USUARIO.github.io/calculadora-profesional/
+
+
+MÉTODO B - Netlify (Más Fácil):
+───────────────────────────────────────────────────────────────────
+
+1. Ve a: https://www.netlify.com
+
+2. Arrastra la carpeta "web" a Netlify Drop
+
+3. ¡Listo! Te dará una URL como:
+   https://random-name-12345.netlify.app
+
+
+📱 CÓMO LO USARÁN TUS USUARIOS
+═══════════════════════════════════════════════════════════════════
+
+WINDOWS:
+────────
+1. Entran a tu página web
+2. Ven "Sistema detectado: Windows"
+3. Clic en "Descargar para Windows"
+4. Ejecutan el .exe o instalar.bat
+5. ¡Listo!
+
+LINUX:
+──────
+1. Entran a tu página web
+2. Ven "Sistema detectado: Linux"
+3. Clic en "Descargar e Instalar para Linux"
+4. Abren terminal y ejecutan:
+   chmod +x instalar_web.sh
+   ./instalar_web.sh
+5. ¡Listo!
+
+O INCLUSO MÁS FÁCIL (Linux):
+────────────────────────────
+Pueden instalar directamente con un comando:
+
+  curl -sSL https://TU-URL/instalar_web.sh | bash
+
+
+📁 ARCHIVOS EN LA CARPETA WEB
+═══════════════════════════════════════════════════════════════════
+
+✓ index.html                        → Página principal
+✓ instalar_web.sh                   → Instalador automático Linux
+✓ calculadora_completa.py           → Código fuente
+✓ CalculadoraProfesional.exe        → Ejecutable Windows
+✓ instalar.bat                      → Instalador Windows
+✓ instalador_linux.sh               → Script instalación Linux
+✓ icono.ico                         → Icono de la app
+✓ CalculadoraProfesional_Linux.zip  → Paquete completo Linux
+✓ README_WEB.md                     → Documentación completa
+✓ probar_local.bat                  → Para probar localmente
+
+
+🎯 VENTAJAS DE ESTE MÉTODO
+═══════════════════════════════════════════════════════════════════
+
+✅ Los usuarios NO necesitan saber de GitHub
+✅ Instalación con 1-2 clics
+✅ Detección automática del sistema operativo
+✅ Página profesional y moderna
+✅ Funciona en móviles
+✅ GRATIS para hospedar
+✅ Fácil de compartir (solo una URL)
+
+
+🔗 COMPARTIR TU PÁGINA
+═══════════════════════════════════════════════════════════════════
+
+Una vez publicada, comparte el enlace:
+
+  📧 Por email
+  💬 En WhatsApp/Telegram
+  🐦 En Twitter/X
+  📘 En Facebook
+  💼 En LinkedIn
+  🎓 En grupos de estudio
+  📝 En foros de matemáticas
+
+
+💡 EJEMPLO DE MENSAJE PARA COMPARTIR
+═══════════════════════════════════════════════════════════════════
+
+"¡Hola! He creado una calculadora científica profesional con
+soporte para números negativos, potencias y funciones avanzadas.
+
+🧮 Descárgala gratis aquí: https://TU-URL
+
+✨ Características:
+• Números negativos
+• Operador de potencia (^)
+• Modo científico completo
+• Funciona en Windows y Linux
+
+¡Espero que te sea útil!"
+
+
+🆘 SI TIENES PROBLEMAS
+═══════════════════════════════════════════════════════════════════
+
+1. Lee el archivo README_WEB.md para más detalles
+
+2. Prueba primero localmente con probar_local.bat
+
+3. Verifica que todos los archivos estén en la carpeta web
+
+4. Si usas GitHub Pages, espera 5-10 minutos después de activarlo
+
+
+═══════════════════════════════════════════════════════════════════
+           ¡Tu calculadora está lista para el mundo! 🌍🧮
+═══════════════════════════════════════════════════════════════════

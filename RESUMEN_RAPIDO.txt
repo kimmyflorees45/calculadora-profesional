@@ -1,0 +1,120 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║     📱 CREAR APK EN GOOGLE COLAB - RESUMEN RÁPIDO              ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+
+🎯 LO QUE VAS A HACER
+═══════════════════════════════════════════════════════════════════
+
+Vas a usar Google Colab (GRATIS) para compilar tu calculadora
+en un APK que puedes instalar en Android.
+
+NO necesitas instalar nada en tu PC ✅
+
+
+📋 PREPARACIÓN (5 minutos)
+═══════════════════════════════════════════════════════════════════
+
+1. Abre Google Drive: drive.google.com
+2. Crea carpeta: "CalculadoraAPK"
+3. Sube estos archivos:
+   • calculadora_android.py
+   • buildozer.spec
+   • icono.ico (opcional)
+
+
+🚀 COMPILAR (40-60 minutos primera vez)
+═══════════════════════════════════════════════════════════════════
+
+1. Abre: colab.research.google.com
+2. Nuevo cuaderno
+3. Copia y pega este código:
+
+┌────────────────────────────────────────────────────────────────┐
+│ # Montar Drive                                                 │
+│ from google.colab import drive                                 │
+│ drive.mount('/content/drive')                                  │
+│                                                                │
+│ # Ir a carpeta                                                 │
+│ %cd /content/drive/MyDrive/CalculadoraAPK                      │
+│                                                                │
+│ # Instalar herramientas                                        │
+│ !apt-get update -qq                                            │
+│ !apt-get install -y openjdk-11-jdk > /dev/null 2>&1           │
+│ !pip install -q buildozer cython==0.29.33 kivy                 │
+│                                                                │
+│ # Compilar APK                                                 │
+│ !buildozer android debug                                       │
+│                                                                │
+│ # Descargar APK                                                │
+│ from google.colab import files                                 │
+│ files.download('bin/calculadoraprofesional-2.0-debug.apk')    │
+└────────────────────────────────────────────────────────────────┘
+
+4. Ejecuta cada celda (Shift + Enter)
+5. Espera... ☕ (30-60 minutos)
+6. ¡Descarga tu APK!
+
+
+📱 INSTALAR EN ANDROID
+═══════════════════════════════════════════════════════════════════
+
+1. Transfiere el APK a tu teléfono
+2. Abre el archivo APK
+3. Permite "Fuentes desconocidas"
+4. Instala
+5. ¡Listo! 🎉
+
+
+⏱️ TIEMPOS
+═══════════════════════════════════════════════════════════════════
+
+Primera compilación:  40-60 minutos
+Siguientes:           5-10 minutos
+Instalación:          2 minutos
+
+
+💡 CONSEJOS
+═══════════════════════════════════════════════════════════════════
+
+✓ No cierres la pestaña mientras compila
+✓ Ten buena conexión a internet
+✓ La primera vez tarda mucho (descarga herramientas)
+✓ Las siguientes son rápidas
+✓ Puedes usar el notebook que creé: Compilar_APK_Calculadora.ipynb
+
+
+🆘 SI ALGO FALLA
+═══════════════════════════════════════════════════════════════════
+
+Error común: "buildozer not found"
+Solución: !pip install --upgrade buildozer
+
+Error común: "Java not found"  
+Solución: !apt-get install openjdk-11-jdk
+
+Error común: Se detiene la compilación
+Solución: Ejecuta de nuevo, continúa donde quedó
+
+
+📚 ARCHIVOS CREADOS
+═══════════════════════════════════════════════════════════════════
+
+✓ GUIA_GOOGLE_COLAB.md          (Guía completa detallada)
+✓ Compilar_APK_Calculadora.ipynb (Notebook listo para usar)
+✓ RESUMEN_RAPIDO.txt            (Este archivo)
+
+
+🎯 SIGUIENTE PASO
+═══════════════════════════════════════════════════════════════════
+
+1. Sube archivos a Google Drive
+2. Abre el notebook: Compilar_APK_Calculadora.ipynb
+3. Ejecuta todas las celdas
+4. ¡Espera tu APK!
+
+
+═══════════════════════════════════════════════════════════════════
+              ¡Es más fácil de lo que parece! 🚀
+═══════════════════════════════════════════════════════════════════

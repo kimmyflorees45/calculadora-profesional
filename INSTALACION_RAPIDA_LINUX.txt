@@ -1,0 +1,85 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║      🧮  CALCULADORA PROFESIONAL - INSTALACIÓN EN LINUX  🧮   ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+📦 INSTALACIÓN RÁPIDA (3 PASOS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1️⃣  INSTALAR DEPENDENCIAS:
+   
+   Ubuntu/Debian:
+   $ sudo apt install python3 python3-tk
+   
+   Fedora:
+   $ sudo dnf install python3 python3-tkinter
+   
+   Arch Linux:
+   $ sudo pacman -S python tk
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2️⃣  DAR PERMISOS AL INSTALADOR:
+   
+   $ chmod +x install.sh
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+3️⃣  EJECUTAR EL INSTALADOR:
+   
+   $ ./install.sh
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ ¡LISTO! Ahora puedes usar la calculadora de estas formas:
+
+   • Desde el menú de aplicaciones (busca "Calculadora Profesional")
+   • Desde la terminal: calculadora-profesional
+   • Directamente: python3 ~/.local/share/calculadora-profesional/calculadora_completa.py
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 ARCHIVOS INCLUIDOS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+   ✓ calculadora_completa.py  → Programa principal
+   ✓ install.sh               → Script de instalación
+   ✓ uninstall.sh             → Script de desinstalación
+   ✓ README_LINUX.md          → Documentación completa
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 CARACTERÍSTICAS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+   ✨ Calculadora básica y científica
+   ✨ Funciones trigonométricas
+   ✨ Logaritmos y potencias
+   ✨ Juego educativo de divisiones
+   ✨ Interfaz moderna y colorida
+   ✨ Atajos de teclado
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❓ PROBLEMAS COMUNES:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+   Si el comando 'calculadora-profesional' no funciona:
+   
+   $ echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+   $ source ~/.bashrc
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🗑️  DESINSTALAR:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+   $ chmod +x uninstall.sh
+   $ ./uninstall.sh
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📖 Para más información, lee: README_LINUX.md
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

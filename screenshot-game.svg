@@ -1,0 +1,57 @@
+<svg width="500" height="600" viewBox="0 0 500 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo de la ventana -->
+  <rect width="500" height="600" fill="#fce4ec" rx="15"/>
+  
+  <!-- Header de la ventana -->
+  <rect width="500" height="40" fill="#f8bbd0" rx="15"/>
+  <rect y="40" width="500" height="15" fill="#f8bbd0"/>
+  
+  <!-- Botones de ventana -->
+  <circle cx="15" cy="20" r="6" fill="#ff5f57"/>
+  <circle cx="35" cy="20" r="6" fill="#ffbd2e"/>
+  <circle cx="55" cy="20" r="6" fill="#28ca42"/>
+  
+  <!-- Título -->
+  <text x="250" y="27" font-family="Comic Sans MS, cursive" font-size="14" font-weight="bold" fill="#d81b60" text-anchor="middle">Juego de Divisiones</text>
+  
+  <!-- Botón calculadora -->
+  <rect x="20" y="60" width="50" height="40" rx="8" fill="#f8bbd0"/>
+  <text x="45" y="85" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">🧮</text>
+  
+  <!-- Título del juego -->
+  <text x="250" y="120" font-family="Comic Sans MS, cursive" font-size="32" font-weight="bold" fill="#d81b60" text-anchor="middle">✨ Juego de Divisiones ✨</text>
+  <text x="250" y="150" font-family="Arial, sans-serif" font-size="14" fill="#f06292" text-anchor="middle">¡Aprende mientras te diviertes! 🌸</text>
+  
+  <!-- Tarjetas de información -->
+  <!-- Nivel -->
+  <rect x="120" y="180" width="120" height="100" rx="10" fill="#ffffff"/>
+  <text x="180" y="210" font-family="Arial, sans-serif" font-size="12" fill="#f06292" text-anchor="middle">🌟 Nivel</text>
+  <text x="180" y="255" font-family="Comic Sans MS, cursive" font-size="36" font-weight="bold" fill="#d81b60" text-anchor="middle">3</text>
+  
+  <!-- Puntos -->
+  <rect x="260" y="180" width="120" height="100" rx="10" fill="#ffffff"/>
+  <text x="320" y="210" font-family="Arial, sans-serif" font-size="12" fill="#f06292" text-anchor="middle">⭐ Puntos</text>
+  <text x="320" y="255" font-family="Comic Sans MS, cursive" font-size="36" font-weight="bold" fill="#d81b60" text-anchor="middle">150</text>
+  
+  <!-- Pregunta -->
+  <rect x="80" y="310" width="340" height="120" rx="15" fill="#ffffff"/>
+  <text x="250" y="380" font-family="Comic Sans MS, cursive" font-size="48" font-weight="bold" fill="#d81b60" text-anchor="middle">72 ÷ 8 = ?</text>
+  
+  <!-- Campo de respuesta -->
+  <text x="250" y="470" font-family="Arial, sans-serif" font-size="16" fill="#f06292" text-anchor="middle">💖 Tu respuesta:</text>
+  
+  <rect x="180" y="480" width="140" height="50" rx="10" fill="#ffffff" stroke="#f8bbd0" stroke-width="2"/>
+  <text x="250" y="513" font-family="Comic Sans MS, cursive" font-size="28" font-weight="bold" fill="#d81b60" text-anchor="middle">9</text>
+  
+  <!-- Botón verificar -->
+  <rect x="150" y="550" width="200" height="40" rx="20" fill="#f06292"/>
+  <text x="250" y="575" font-family="Comic Sans MS, cursive" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">✨ Verificar ✨</text>
+  
+  <!-- Decoración: estrellas -->
+  <text x="50" y="200" font-size="20" opacity="0.3">⭐</text>
+  <text x="430" y="220" font-size="24" opacity="0.3">✨</text>
+  <text x="70" y="350" font-size="18" opacity="0.3">🌸</text>
+  <text x="420" y="380" font-size="20" opacity="0.3">💖</text>
+  <text x="90" y="500" font-size="22" opacity="0.3">🎮</text>
+  <text x="410" y="520" font-size="18" opacity="0.3">🌟</text>
+</svg>

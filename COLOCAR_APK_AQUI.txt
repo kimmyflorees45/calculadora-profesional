@@ -1,0 +1,13 @@
+📱 INSTRUCCIONES PARA EL APK
+================================
+
+Una vez que descargues el APK desde Google Colab:
+
+1. Renombra el archivo a: calculadora-1.8-armeabi-v7a-debug.apk
+2. Colócalo en esta carpeta: dist/android/
+3. La página web ya está configurada para descargarlo desde aquí
+
+Ruta completa donde debe estar:
+c:\Users\kimyb\OneDrive\Calculadora python\dist\android\calculadora-1.8-armeabi-v7a-debug.apk
+
+¡Listo! Ahora la descarga funcionará en tu página web.

@@ -1,0 +1,141 @@
+<svg width="450" height="550" viewBox="0 0 450 550" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo de la ventana -->
+  <rect width="450" height="550" fill="#f5e6f0" rx="15"/>
+  
+  <!-- Header de la ventana -->
+  <rect width="450" height="40" fill="#e6d0e6" rx="15"/>
+  <rect y="40" width="450" height="15" fill="#e6d0e6"/>
+  
+  <!-- Botones de ventana -->
+  <circle cx="15" cy="20" r="6" fill="#ff5f57"/>
+  <circle cx="35" cy="20" r="6" fill="#ffbd2e"/>
+  <circle cx="55" cy="20" r="6" fill="#28ca42"/>
+  
+  <!-- Título -->
+  <text x="225" y="27" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#7b4b94" text-anchor="middle">Calculadora Profesional - Modo Científico</text>
+  
+  <!-- Botones superiores -->
+  <rect x="20" y="60" width="200" height="35" rx="8" fill="#d4a5d4"/>
+  <text x="120" y="82" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">☰ Modo Básico</text>
+  
+  <rect x="230" y="60" width="200" height="35" rx="8" fill="#f4a6d7"/>
+  <text x="330" y="82" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">🎮 Juego de Divisiones</text>
+  
+  <!-- Display -->
+  <rect x="20" y="110" width="410" height="80" rx="8" fill="#f5e6f0"/>
+  <text x="420" y="135" font-family="Arial, sans-serif" font-size="14" fill="#9b7ba8" text-anchor="end">sin(45) + π</text>
+  <text x="420" y="175" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#7b4b94" text-anchor="end">3.8487</text>
+  
+  <!-- Botones científicos -->
+  <!-- Fila 1 -->
+  <rect x="20" y="210" width="70" height="40" rx="6" fill="#d4a5d4"/>
+  <text x="55" y="235" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">C</text>
+  
+  <rect x="100" y="210" width="70" height="40" rx="6" fill="#d4a5d4"/>
+  <text x="135" y="235" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">⌫</text>
+  
+  <rect x="180" y="210" width="70" height="40" rx="6" fill="#d4a5d4"/>
+  <text x="215" y="235" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">(</text>
+  
+  <rect x="260" y="210" width="70" height="40" rx="6" fill="#d4a5d4"/>
+  <text x="295" y="235" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">)</text>
+  
+  <rect x="340" y="210" width="90" height="40" rx="6" fill="#d4a5d4"/>
+  <text x="385" y="235" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">%</text>
+  
+  <!-- Fila 2 -->
+  <rect x="20" y="260" width="70" height="40" rx="6" fill="#c89dd1"/>
+  <text x="55" y="285" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">sin</text>
+  
+  <rect x="100" y="260" width="70" height="40" rx="6" fill="#c89dd1"/>
+  <text x="135" y="285" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">cos</text>
+  
+  <rect x="180" y="260" width="70" height="40" rx="6" fill="#c89dd1"/>
+  <text x="215" y="285" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">tan</text>
+  
+  <rect x="260" y="260" width="70" height="40" rx="6" fill="#c89dd1"/>
+  <text x="295" y="285" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">π</text>
+  
+  <rect x="340" y="260" width="90" height="40" rx="6" fill="#c89dd1"/>
+  <text x="385" y="285" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">e</text>
+  
+  <!-- Fila 3 -->
+  <rect x="20" y="310" width="70" height="40" rx="6" fill="#c89dd1"/>
+  <text x="55" y="335" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">ln</text>
+  
+  <rect x="100" y="310" width="70" height="40" rx="6" fill="#c89dd1"/>
+  <text x="135" y="335" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">log</text>
+  
+  <rect x="180" y="310" width="70" height="40" rx="6" fill="#c89dd1"/>
+  <text x="215" y="335" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">√</text>
+  
+  <rect x="260" y="310" width="70" height="40" rx="6" fill="#c89dd1"/>
+  <text x="295" y="335" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">x²</text>
+  
+  <rect x="340" y="310" width="90" height="40" rx="6" fill="#c89dd1"/>
+  <text x="385" y="335" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">xʸ</text>
+  
+  <!-- Fila 4 -->
+  <rect x="20" y="360" width="70" height="40" rx="6" fill="#e6d0e6"/>
+  <text x="55" y="385" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">7</text>
+  
+  <rect x="100" y="360" width="70" height="40" rx="6" fill="#e6d0e6"/>
+  <text x="135" y="385" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">8</text>
+  
+  <rect x="180" y="360" width="70" height="40" rx="6" fill="#e6d0e6"/>
+  <text x="215" y="385" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">9</text>
+  
+  <rect x="260" y="360" width="70" height="40" rx="6" fill="#f4a6d7"/>
+  <text x="295" y="385" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">/</text>
+  
+  <rect x="340" y="360" width="90" height="40" rx="6" fill="#c89dd1"/>
+  <text x="385" y="385" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">x!</text>
+  
+  <!-- Fila 5 -->
+  <rect x="20" y="410" width="70" height="40" rx="6" fill="#e6d0e6"/>
+  <text x="55" y="435" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">4</text>
+  
+  <rect x="100" y="410" width="70" height="40" rx="6" fill="#e6d0e6"/>
+  <text x="135" y="435" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">5</text>
+  
+  <rect x="180" y="410" width="70" height="40" rx="6" fill="#e6d0e6"/>
+  <text x="215" y="435" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">6</text>
+  
+  <rect x="260" y="410" width="70" height="40" rx="6" fill="#f4a6d7"/>
+  <text x="295" y="435" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">×</text>
+  
+  <rect x="340" y="410" width="90" height="40" rx="6" fill="#c89dd1"/>
+  <text x="385" y="435" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">1/x</text>
+  
+  <!-- Fila 6 -->
+  <rect x="20" y="460" width="70" height="40" rx="6" fill="#e6d0e6"/>
+  <text x="55" y="485" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+  
+  <rect x="100" y="460" width="70" height="40" rx="6" fill="#e6d0e6"/>
+  <text x="135" y="485" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+  
+  <rect x="180" y="460" width="70" height="40" rx="6" fill="#e6d0e6"/>
+  <text x="215" y="485" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+  
+  <rect x="260" y="460" width="70" height="40" rx="6" fill="#f4a6d7"/>
+  <text x="295" y="485" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">-</text>
+  
+  <rect x="340" y="460" width="90" height="40" rx="6" fill="#c89dd1"/>
+  <text x="385" y="485" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">ANS</text>
+  
+  <!-- Fila 7 -->
+  <rect x="20" y="510" width="70" height="30" rx="6" fill="#d4a5d4"/>
+  <text x="55" y="530" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">±</text>
+  
+  <rect x="100" y="510" width="70" height="30" rx="6" fill="#e6d0e6"/>
+  <text x="135" y="530" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">0</text>
+  
+  <rect x="180" y="510" width="70" height="30" rx="6" fill="#e6d0e6"/>
+  <text x="215" y="530" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">.</text>
+  
+  <rect x="260" y="510" width="70" height="30" rx="6" fill="#f4a6d7"/>
+  <text x="295" y="530" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">+</text>
+  
+  <rect x="340" y="510" width="90" height="30" rx="6" fill="#f4a6d7"/>
+  <text x="385" y="530" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">=</text>
+</svg>

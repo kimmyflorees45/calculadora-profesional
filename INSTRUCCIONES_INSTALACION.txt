@@ -1,0 +1,67 @@
+╔════════════════════════════════════════════════════════════════╗
+║         CALCULADORA PROFESIONAL - INSTRUCCIONES                ║
+╚════════════════════════════════════════════════════════════════╝
+
+✨ ¡Tu calculadora está lista para usar! ✨
+
+📁 UBICACIÓN DEL EJECUTABLE:
+   C:\Users\kimyb\OneDrive\Calculadora python\dist\dist\CalculadoraProfesional.exe
+
+🚀 CÓMO INSTALAR Y USAR:
+
+   OPCIÓN 1: Ejecutar directamente
+   ─────────────────────────────────
+   1. Ve a la carpeta: dist\dist\
+   2. Haz doble clic en: CalculadoraProfesional.exe
+   3. ¡Listo! La calculadora se abrirá automáticamente
+
+   OPCIÓN 2: Crear acceso directo en el escritorio
+   ────────────────────────────────────────────────
+   1. Haz clic derecho en CalculadoraProfesional.exe
+   2. Selecciona "Enviar a" → "Escritorio (crear acceso directo)"
+   3. Ahora puedes abrir la calculadora desde tu escritorio
+
+   OPCIÓN 3: Agregar al menú inicio
+   ─────────────────────────────────
+   1. Copia CalculadoraProfesional.exe
+   2. Pégalo en: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\
+   3. Ahora aparecerá en tu menú inicio
+
+📊 CARACTERÍSTICAS:
+   • Calculadora básica con operaciones estándar
+   • Modo científico con funciones trigonométricas
+   • Logaritmos (ln, log)
+   • Raíz cuadrada, potencias, factorial
+   • Constantes matemáticas (π, e)
+   • Juego educativo de divisiones 🎮
+   • Interfaz moderna y responsive
+
+⚙️ REQUISITOS:
+   • Windows 10 o superior
+   • NO necesita Python instalado (ejecutable independiente)
+   • Tamaño: ~10 MB
+
+🔧 SOLUCIÓN DE PROBLEMAS:
+   
+   Si Windows Defender bloquea el archivo:
+   1. Haz clic en "Más información"
+   2. Selecciona "Ejecutar de todas formas"
+   
+   Si no abre:
+   1. Haz clic derecho en el archivo .exe
+   2. Selecciona "Propiedades"
+   3. Marca "Desbloquear" y haz clic en "Aplicar"
+
+📝 ARCHIVOS GENERADOS:
+   • CalculadoraProfesional.exe - Ejecutable principal
+   • CalculadoraProfesional.spec - Especificaciones de compilación
+   • build/ - Archivos temporales de compilación
+   • dist/ - Carpeta con el ejecutable final
+
+💡 CONSEJO:
+   Puedes compartir solo el archivo CalculadoraProfesional.exe
+   con otras personas y funcionará sin necesidad de instalar nada.
+
+═══════════════════════════════════════════════════════════════════
+Creado con PyInstaller | Python + Tkinter
+═══════════════════════════════════════════════════════════════════

@@ -1,0 +1,131 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║     CALCULADORA PROFESIONAL - INSTALACIÓN EN LINUX              ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+
+📦 ARCHIVOS PREPARADOS
+═══════════════════════════════════════════════════════════════════
+
+Se ha creado el paquete de instalación para Linux:
+
+  📁 CalculadoraProfesional_Linux/
+     ├── calculadora_completa.py    (Código fuente)
+     ├── instalar_linux.sh          (Instalador automático)
+     ├── icono.ico                  (Icono de la aplicación)
+     └── README.md                  (Instrucciones detalladas)
+
+  📦 CalculadoraProfesional_Linux.zip (Archivo comprimido)
+
+
+🚀 PASOS PARA INSTALAR EN LINUX
+═══════════════════════════════════════════════════════════════════
+
+1. TRANSFERIR ARCHIVOS A LINUX
+   ────────────────────────────────────────────────────────────────
+   Opciones:
+   • Copiar la carpeta "CalculadoraProfesional_Linux" a Linux
+   • O transferir el archivo "CalculadoraProfesional_Linux.zip"
+   
+   Métodos de transferencia:
+   • USB
+   • Red compartida
+   • Email
+   • Nube (Google Drive, Dropbox, etc.)
+
+
+2. DESCOMPRIMIR (si transferiste el .zip)
+   ────────────────────────────────────────────────────────────────
+   En Linux, ejecuta:
+   
+   unzip CalculadoraProfesional_Linux.zip
+   cd CalculadoraProfesional_Linux
+
+
+3. DAR PERMISOS DE EJECUCIÓN
+   ────────────────────────────────────────────────────────────────
+   chmod +x instalar_linux.sh
+
+
+4. EJECUTAR EL INSTALADOR
+   ────────────────────────────────────────────────────────────────
+   ./instalar_linux.sh
+   
+   El instalador hará todo automáticamente:
+   ✓ Verificará dependencias (Python3, tkinter)
+   ✓ Instalará la aplicación
+   ✓ Creará accesos directos
+   ✓ Configurará el menú de aplicaciones
+
+
+5. USAR LA CALCULADORA
+   ────────────────────────────────────────────────────────────────
+   • Busca "Calculadora Profesional" en el menú de aplicaciones
+   • O haz clic en el icono del escritorio (si lo creaste)
+
+
+📋 REQUISITOS EN LINUX
+═══════════════════════════════════════════════════════════════════
+
+Antes de instalar, asegúrate de tener:
+
+  • Python 3 (versión 3.6 o superior)
+  • python3-tk (biblioteca Tkinter)
+
+Instalar en Ubuntu/Debian:
+  sudo apt update
+  sudo apt install python3 python3-tk -y
+
+Instalar en Fedora/RHEL:
+  sudo dnf install python3 python3-tkinter -y
+
+Instalar en Arch Linux:
+  sudo pacman -S python tk -y
+
+
+✨ CARACTERÍSTICAS DE LA CALCULADORA
+═══════════════════════════════════════════════════════════════════
+
+✓ Números negativos: -5, 3×(-2), 5+(-3)
+✓ Operador de potencia ^: 2^3, 10^2, (-2)^3
+✓ Paréntesis: (5+3)^2, 2(3+4)
+✓ Botón ANS: Reutiliza el resultado anterior
+✓ Modo científico: sin, cos, tan, ln, log, √, x², factorial
+✓ Constantes: π (pi) y e (euler)
+✓ Atajos de teclado: Todos los operadores
+
+
+🗑️ DESINSTALAR
+═══════════════════════════════════════════════════════════════════
+
+Para desinstalar en Linux:
+
+  ~/.local/share/CalculadoraProfesional/desinstalar.sh
+
+
+📁 UBICACIÓN DE ARCHIVOS EN LINUX
+═══════════════════════════════════════════════════════════════════
+
+Aplicación:
+  ~/.local/share/CalculadoraProfesional/
+
+Acceso directo (menú):
+  ~/.local/share/applications/calculadora-profesional.desktop
+
+Acceso directo (escritorio):
+  ~/Desktop/calculadora-profesional.desktop
+
+
+🆘 SOPORTE
+═══════════════════════════════════════════════════════════════════
+
+Si tienes problemas:
+
+1. Verifica que Python3 y tkinter estén instalados
+2. Lee el archivo README.md para instrucciones detalladas
+3. Intenta la instalación manual (ver README.md)
+
+
+═══════════════════════════════════════════════════════════════════
+           ¡Disfruta tu calculadora científica en Linux! 🐧🧮
+═══════════════════════════════════════════════════════════════════
