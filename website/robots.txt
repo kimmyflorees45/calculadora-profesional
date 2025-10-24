@@ -12,7 +12,7 @@ Disallow: /*.py$
 Disallow: /*.txt$
 
 # Sitemap
-Sitemap: https://descarga-calculadora-profesional.netlify.app/sitemap.xml
+Sitemap: https://calculadora-profesional-kbf.netlify.app/sitemap.xml
 
 # Rastreo específico para Google
 User-agent: Googlebot
