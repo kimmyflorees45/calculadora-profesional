@@ -1,0 +1,36 @@
+═══════════════════════════════════════════════════════════════════
+  GUARDA LAS 3 IMÁGENES AQUÍ CON ESTOS NOMBRES
+═══════════════════════════════════════════════════════════════════
+
+Por favor, guarda las 3 capturas de pantalla que tomaste en esta
+carpeta con estos nombres EXACTOS:
+
+1. basico.png       → Imagen del modo básico (la segunda imagen)
+2. cientifico.png   → Imagen del modo científico (la primera imagen)
+3. juego.png        → Imagen del juego de divisiones (la tercera imagen)
+
+═══════════════════════════════════════════════════════════════════
+📝 INSTRUCCIONES:
+═══════════════════════════════════════════════════════════════════
+
+1. Haz clic derecho en cada imagen
+2. Selecciona "Guardar imagen como..."
+3. Guárdala en esta carpeta: 
+   c:\Users\kimyb\OneDrive\Calculadora python\website\screenshots\
+4. Usa exactamente estos nombres:
+   - basico.png
+   - cientifico.png
+   - juego.png
+
+═══════════════════════════════════════════════════════════════════
+✅ VERIFICAR:
+═══════════════════════════════════════════════════════════════════
+
+Después de guardar, esta carpeta debe tener:
+✓ basico.png
+✓ cientifico.png
+✓ juego.png
+
+Luego abre index.html y verás tus imágenes reales en la página web!
+
+═══════════════════════════════════════════════════════════════════

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Crear Placeholders</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .placeholder {
+            width: 400px;
+            height: 600px;
+            background: linear-gradient(135deg, #FFE6F0 0%, #EBD9F9 100%);
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            position: relative;
+        }
+        .placeholder-header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(135deg, #BFA5D8 0%, #F4A6D7 100%);
+            padding: 15px;
+            border-radius: 15px 15px 0 0;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+        .placeholder-content {
+            text-align: center;
+            padding: 20px;
+        }
+        .placeholder-icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+        .placeholder-text {
+            font-size: 24px;
+            color: #7B4B94;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .placeholder-subtext {
+            font-size: 14px;
+            color: #9B7BA8;
+        }
+        .calc-display {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+            width: 80%;
+        }
+        .calc-result {
+            font-size: 48px;
+            color: #7B4B94;
+            font-weight: bold;
+            text-align: right;
+        }
+        .calc-buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            padding: 20px;
+            width: 80%;
+        }
+        .calc-btn {
+            background: linear-gradient(135deg, #E6D0E6 0%, #F8BBD0 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .instructions {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 4px solid #A855F7;
+        }
+    </style>
+</head>
+<body>
+    <div class="instructions">
+        <h2>📸 Instrucciones para Capturas Reales</h2>
+        <p><strong>Estos son solo placeholders temporales.</strong> Para tener capturas reales:</p>
+        <ol>
+            <li>Ejecuta tu calculadora en Windows/macOS/Linux</li>
+            <li>Toma una captura de pantalla (Windows+Shift+S en Windows)</li>
+            <li>Guárdala como PNG en la carpeta <code>screenshots/</code></li>
+            <li>Usa estos nombres: <code>windows.png</code>, <code>macos.png</code>, <code>linux.png</code>, <code>cientifico.png</code></li>
+        </ol>
+        <p><strong>Mientras tanto, la página usará estos placeholders con gradientes morados.</strong></p>
+    </div>
+
+    <h2>Vista Previa de Placeholders:</h2>
+    
+    <div class="placeholder">
+        <div class="placeholder-header">Calculadora Profesional - Windows</div>
+        <div class="calc-display">
+            <div class="calc-result">0</div>
+        </div>
+        <div class="calc-buttons">
+            <div class="calc-btn">7</div>
+            <div class="calc-btn">8</div>
+            <div class="calc-btn">9</div>
+            <div class="calc-btn" style="background: linear-gradient(135deg, #F4A6D7 0%, #F06292 100%);">÷</div>
+        </div>
+    </div>
+
+    <div class="placeholder">
+        <div class="placeholder-header">Calculadora Profesional - macOS</div>
+        <div class="placeholder-content">
+            <div class="placeholder-icon">🧮</div>
+            <div class="placeholder-text">Modo Científico</div>
+            <div class="placeholder-subtext">Toma una captura real para mostrarla aquí</div>
+        </div>
+    </div>
+
+    <script>
+        alert('Esta página es solo para ver los placeholders.\n\nPara usar capturas reales:\n1. Toma screenshots de tu calculadora\n2. Guárdalas en la carpeta screenshots/\n3. Usa los nombres: windows.png, macos.png, linux.png, cientifico.png');
+    </script>
+</body>
+</html>

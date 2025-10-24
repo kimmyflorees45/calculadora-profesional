@@ -1,0 +1,192 @@
+═══════════════════════════════════════════════════════════════════
+  PUBLICAR TU PÁGINA WEB - PASO A PASO
+═══════════════════════════════════════════════════════════════════
+
+¡TODO ESTÁ LISTO! Solo sigue estos pasos:
+
+═══════════════════════════════════════════════════════════════════
+MÉTODO 1: NETLIFY (EL MÁS FÁCIL) - 2 MINUTOS
+═══════════════════════════════════════════════════════════════════
+
+PASO 1: Abre tu navegador
+────────────────────────
+Ve a: https://app.netlify.com/drop
+
+PASO 2: Arrastra la carpeta
+────────────────────────────
+- Verás una página que dice "Drag & Drop your site folder here"
+- Arrastra la carpeta "publicar" (la que acabo de crear)
+- O haz clic en "browse to upload" y selecciona todos los archivos
+  de la carpeta "publicar"
+
+PASO 3: ¡Listo!
+────────────────
+- Netlify subirá los archivos (toma 10-20 segundos)
+- Te dará una URL como: random-name-123456.netlify.app
+- ¡Tu página ya está en internet!
+
+PASO 4 (Opcional): Cambiar el nombre
+─────────────────────────────────────
+- Haz clic en "Site settings"
+- Busca "Site name"
+- Haz clic en "Change site name"
+- Pon: calculadora-profesional
+- Tu nueva URL será: calculadora-profesional.netlify.app
+
+═══════════════════════════════════════════════════════════════════
+MÉTODO 2: GITHUB PAGES (MÁS PROFESIONAL) - 5 MINUTOS
+═══════════════════════════════════════════════════════════════════
+
+PASO 1: Crear cuenta en GitHub (si no tienes)
+──────────────────────────────────────────────
+1. Ve a: https://github.com/signup
+2. Ingresa tu email
+3. Crea una contraseña
+4. Elige un nombre de usuario
+5. Verifica tu email
+
+PASO 2: Crear repositorio
+──────────────────────────
+1. Haz clic en el botón verde "New" (arriba a la izquierda)
+2. Repository name: calculadora-profesional
+3. Descripción: Calculadora profesional con modo científico
+4. Selecciona "Public"
+5. Haz clic en "Create repository"
+
+PASO 3: Subir archivos
+───────────────────────
+1. Haz clic en "uploading an existing file"
+2. Arrastra TODOS los archivos de la carpeta "publicar"
+   (index.html, styles.css, script.js, cookies.js, 
+    terminos.html, privacidad.html y la carpeta screenshots)
+3. Escribe en "Commit changes": "Primera versión"
+4. Haz clic en "Commit changes"
+
+PASO 4: Activar GitHub Pages
+─────────────────────────────
+1. Haz clic en "Settings" (arriba)
+2. En el menú izquierdo, busca "Pages"
+3. En "Source", selecciona "Deploy from a branch"
+4. En "Branch", selecciona "main"
+5. Deja "/ (root)" seleccionado
+6. Haz clic en "Save"
+
+PASO 5: Obtener tu URL
+───────────────────────
+1. Espera 2-3 minutos
+2. Refresca la página
+3. Verás un mensaje: "Your site is live at..."
+4. Tu URL será: https://tuusuario.github.io/calculadora-profesional
+
+═══════════════════════════════════════════════════════════════════
+MÉTODO 3: VERCEL (RÁPIDO) - 3 MINUTOS
+═══════════════════════════════════════════════════════════════════
+
+PASO 1: Crear cuenta
+─────────────────────
+1. Ve a: https://vercel.com/signup
+2. Regístrate con GitHub, GitLab o email
+
+PASO 2: Crear proyecto
+───────────────────────
+1. Haz clic en "Add New..." → "Project"
+2. Haz clic en "Browse" o arrastra la carpeta "publicar"
+3. Haz clic en "Deploy"
+
+PASO 3: ¡Listo!
+────────────────
+- Vercel procesará los archivos
+- Te dará una URL como: calculadora-profesional.vercel.app
+- ¡Tu página está en internet!
+
+═══════════════════════════════════════════════════════════════════
+¿QUÉ ARCHIVOS ESTÁN EN LA CARPETA "PUBLICAR"?
+═══════════════════════════════════════════════════════════════════
+
+La carpeta "publicar" contiene SOLO los archivos necesarios:
+
+✓ index.html              → Página principal
+✓ terminos.html           → Términos y condiciones
+✓ privacidad.html         → Política de privacidad
+✓ styles.css              → Estilos
+✓ script.js               → Animaciones
+✓ cookies.js              → Sistema de cookies
+✓ screenshots/basico.svg  → Imagen modo básico
+✓ screenshots/cientifico.svg → Imagen modo científico
+✓ screenshots/juego.svg   → Imagen juego
+
+═══════════════════════════════════════════════════════════════════
+DESPUÉS DE PUBLICAR
+═══════════════════════════════════════════════════════════════════
+
+1. VERIFICA QUE TODO FUNCIONE:
+   - Abre tu URL
+   - Verifica que las 3 imágenes se vean
+   - Prueba el banner de cookies
+   - Haz clic en "Términos y Condiciones"
+   - Haz clic en "Política de Privacidad"
+   - Prueba los botones de descarga
+
+2. COMPARTE TU URL:
+   - Copia tu URL
+   - Compártela en redes sociales
+   - Envíala por WhatsApp
+   - Agrégala a tu perfil
+
+3. PARA ACTUALIZAR EN EL FUTURO:
+   
+   NETLIFY:
+   - Ve a tu sitio en Netlify
+   - Haz clic en "Deploys"
+   - Arrastra los archivos nuevos
+   
+   GITHUB PAGES:
+   - Ve a tu repositorio
+   - Haz clic en "Add file" → "Upload files"
+   - Arrastra los archivos actualizados
+   
+   VERCEL:
+   - Ve a tu proyecto
+   - Haz clic en "Redeploy"
+
+═══════════════════════════════════════════════════════════════════
+SOLUCIÓN DE PROBLEMAS
+═══════════════════════════════════════════════════════════════════
+
+PROBLEMA: Las imágenes no se ven
+SOLUCIÓN: Asegúrate de subir la carpeta "screenshots" completa
+
+PROBLEMA: El banner de cookies no aparece
+SOLUCIÓN: Verifica que subiste el archivo "cookies.js"
+
+PROBLEMA: Los enlaces no funcionan
+SOLUCIÓN: Asegúrate de subir terminos.html y privacidad.html
+
+PROBLEMA: La página se ve rara en móvil
+SOLUCIÓN: Ya está optimizada, solo refresca (Ctrl+F5)
+
+═══════════════════════════════════════════════════════════════════
+MI RECOMENDACIÓN
+═══════════════════════════════════════════════════════════════════
+
+Para empezar AHORA MISMO:
+
+1. Abre: https://app.netlify.com/drop
+2. Arrastra la carpeta "publicar"
+3. ¡Listo en 30 segundos!
+
+Es lo más fácil y funciona perfecto.
+
+═══════════════════════════════════════════════════════════════════
+¿NECESITAS AYUDA?
+═══════════════════════════════════════════════════════════════════
+
+Si tienes problemas:
+1. Lee este archivo de nuevo
+2. Verifica que subiste TODOS los archivos
+3. Espera 2-3 minutos (a veces tarda)
+4. Refresca la página
+
+¡Suerte con tu página web! 🚀
+
+═══════════════════════════════════════════════════════════════════

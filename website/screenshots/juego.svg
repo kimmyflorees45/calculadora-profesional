@@ -1,0 +1,48 @@
+<svg width="500" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo -->
+  <rect width="500" height="700" fill="#FFE6F0"/>
+  
+  <!-- Header -->
+  <rect width="500" height="80" fill="#F4A6D7"/>
+  <text x="250" y="35" font-family="Arial" font-size="18" fill="white" text-anchor="middle" font-weight="bold">Calculadora Profesional</text>
+  <text x="420" y="60" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Modo Básico</text>
+  
+  <!-- Botones superiores -->
+  <rect x="50" y="100" width="100" height="50" rx="10" fill="#F4A6D7"/>
+  <text x="100" y="132" font-family="Arial" font-size="16" fill="white" text-anchor="middle" font-weight="bold">Calc</text>
+  
+  <rect x="350" y="100" width="100" height="50" rx="10" fill="#F4A6D7"/>
+  <text x="400" y="132" font-family="Arial" font-size="16" fill="white" text-anchor="middle" font-weight="bold">Inicio</text>
+  
+  <!-- Título del juego -->
+  <text x="250" y="200" font-family="Arial" font-size="32" fill="#DB2777" text-anchor="middle" font-weight="bold" font-style="italic">Juego de Divisiones</text>
+  
+  <text x="250" y="230" font-family="Arial" font-size="14" fill="#F06292" text-anchor="middle">¡Aprende mientras te diviertes!</text>
+  
+  <!-- Nivel y Puntos -->
+  <rect x="150" y="250" width="90" height="60" rx="10" fill="#EBD9F9" stroke="#BFA5D8" stroke-width="2"/>
+  <text x="195" y="275" font-family="Arial" font-size="14" fill="#7B4B94" text-anchor="middle">Nivel</text>
+  <text x="195" y="300" font-family="Arial" font-size="32" fill="#DB2777" text-anchor="middle" font-weight="bold">3</text>
+  
+  <rect x="260" y="250" width="90" height="60" rx="10" fill="#EBD9F9" stroke="#BFA5D8" stroke-width="2"/>
+  <text x="305" y="275" font-family="Arial" font-size="14" fill="#7B4B94" text-anchor="middle">Puntos</text>
+  <text x="305" y="300" font-family="Arial" font-size="32" fill="#DB2777" text-anchor="middle" font-weight="bold">10</text>
+  
+  <!-- Pregunta -->
+  <rect x="40" y="340" width="420" height="100" rx="15" fill="#EBD9F9" stroke="#BFA5D8" stroke-width="3"/>
+  <text x="250" y="405" font-family="Arial" font-size="48" fill="#DB2777" text-anchor="middle" font-weight="bold">90 ÷ 10 = ?</text>
+  
+  <!-- Tu respuesta -->
+  <text x="250" y="470" font-family="Arial" font-size="16" fill="#F06292" text-anchor="middle">Tu respuesta:</text>
+  
+  <rect x="100" y="490" width="300" height="60" rx="10" fill="white" stroke="#BFA5D8" stroke-width="2"/>
+  <text x="250" y="532" font-family="Arial" font-size="32" fill="#DB2777" text-anchor="middle" font-weight="bold">9</text>
+  
+  <!-- Botón Verificar -->
+  <rect x="175" y="570" width="150" height="50" rx="25" fill="#F06292"/>
+  <text x="250" y="602" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">Verificar</text>
+  
+  <!-- Mensaje de correcto -->
+  <text x="250" y="650" font-family="Arial" font-size="18" fill="#10B981" text-anchor="middle" font-weight="bold">¡Correcto! ¡Subiste al nivel 3!</text>
+  <text x="250" y="675" font-family="Arial" font-size="14" fill="#10B981" text-anchor="middle" font-style="italic">¡Muy bien! 90 ÷ 10 = 9</text>
+</svg>

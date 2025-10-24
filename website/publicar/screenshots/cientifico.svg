@@ -1,0 +1,134 @@
+<svg width="400" height="750" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo -->
+  <rect width="400" height="750" fill="#FFE6F0"/>
+  
+  <!-- Header -->
+  <rect width="400" height="80" fill="#F4A6D7"/>
+  <text x="200" y="35" font-family="Arial" font-size="18" fill="white" text-anchor="middle" font-weight="bold">Calculadora Profesional</text>
+  <text x="320" y="60" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Modo Científico</text>
+  
+  <!-- Botones superiores -->
+  <rect x="15" y="90" width="180" height="40" rx="10" fill="#F4A6D7"/>
+  <text x="105" y="115" font-family="Arial" font-size="16" fill="white" text-anchor="middle" font-weight="bold">Modo Científico</text>
+  
+  <rect x="205" y="90" width="180" height="40" rx="10" fill="#D4A5D4"/>
+  <text x="295" y="115" font-family="Arial" font-size="16" fill="white" text-anchor="middle" font-weight="bold">Juego de Divisiones</text>
+  
+  <!-- Display -->
+  <rect x="15" y="150" width="370" height="100" rx="10" fill="white"/>
+  <text x="370" y="180" font-family="Arial" font-size="16" fill="#9B7BA8" text-anchor="end">√(8)</text>
+  <text x="370" y="230" font-family="Arial" font-size="36" fill="#7B4B94" text-anchor="end" font-weight="bold">2.82842712</text>
+  
+  <!-- Botones científicos -->
+  <!-- Fila 1 -->
+  <rect x="15" y="270" width="75" height="60" rx="10" fill="#D4A5D4"/>
+  <text x="52.5" y="308" font-family="Arial" font-size="18" fill="white" text-anchor="middle" font-weight="bold">A.C</text>
+  
+  <rect x="100" y="270" width="75" height="60" rx="10" fill="#D4A5D4"/>
+  <text x="137.5" y="308" font-family="Arial" font-size="18" fill="white" text-anchor="middle" font-weight="bold">C</text>
+  
+  <rect x="185" y="270" width="75" height="60" rx="10" fill="#D4A5D4"/>
+  <text x="222.5" y="308" font-family="Arial" font-size="18" fill="white" text-anchor="middle" font-weight="bold">(</text>
+  
+  <rect x="270" y="270" width="55" height="60" rx="10" fill="#D4A5D4"/>
+  <text x="297.5" y="308" font-family="Arial" font-size="18" fill="white" text-anchor="middle" font-weight="bold">)</text>
+  
+  <rect x="335" y="270" width="50" height="60" rx="10" fill="#D4A5D4"/>
+  <text x="360" y="308" font-family="Arial" font-size="18" fill="white" text-anchor="middle" font-weight="bold">%</text>
+  
+  <!-- Fila 2 -->
+  <rect x="15" y="340" width="75" height="60" rx="10" fill="#BFA5D8"/>
+  <text x="52.5" y="378" font-family="Arial" font-size="18" fill="white" text-anchor="middle" font-weight="bold">sin</text>
+  
+  <rect x="100" y="340" width="75" height="60" rx="10" fill="#BFA5D8"/>
+  <text x="137.5" y="378" font-family="Arial" font-size="18" fill="white" text-anchor="middle" font-weight="bold">cos</text>
+  
+  <rect x="185" y="340" width="75" height="60" rx="10" fill="#BFA5D8"/>
+  <text x="222.5" y="378" font-family="Arial" font-size="18" fill="white" text-anchor="middle" font-weight="bold">tan</text>
+  
+  <rect x="270" y="340" width="55" height="60" rx="10" fill="#BFA5D8"/>
+  <text x="297.5" y="378" font-family="Arial" font-size="18" fill="white" text-anchor="middle" font-weight="bold">π</text>
+  
+  <rect x="335" y="340" width="50" height="60" rx="10" fill="#BFA5D8"/>
+  <text x="360" y="378" font-family="Arial" font-size="18" fill="white" text-anchor="middle" font-weight="bold">e</text>
+  
+  <!-- Fila 3 -->
+  <rect x="15" y="410" width="75" height="60" rx="10" fill="#BFA5D8"/>
+  <text x="52.5" y="448" font-family="Arial" font-size="18" fill="white" text-anchor="middle" font-weight="bold">ln</text>
+  
+  <rect x="100" y="410" width="75" height="60" rx="10" fill="#BFA5D8"/>
+  <text x="137.5" y="448" font-family="Arial" font-size="18" fill="white" text-anchor="middle" font-weight="bold">log</text>
+  
+  <rect x="185" y="410" width="75" height="60" rx="10" fill="#BFA5D8"/>
+  <text x="222.5" y="448" font-family="Arial" font-size="18" fill="white" text-anchor="middle" font-weight="bold">√</text>
+  
+  <rect x="270" y="410" width="55" height="60" rx="10" fill="#BFA5D8"/>
+  <text x="297.5" y="448" font-family="Arial" font-size="18" fill="white" text-anchor="middle" font-weight="bold">x²</text>
+  
+  <rect x="335" y="410" width="50" height="60" rx="10" fill="#BFA5D8"/>
+  <text x="360" y="448" font-family="Arial" font-size="18" fill="white" text-anchor="middle" font-weight="bold">^</text>
+  
+  <!-- Fila 4 -->
+  <rect x="15" y="480" width="75" height="60" rx="10" fill="#E6D0E6"/>
+  <text x="52.5" y="518" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">7</text>
+  
+  <rect x="100" y="480" width="75" height="60" rx="10" fill="#E6D0E6"/>
+  <text x="137.5" y="518" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">8</text>
+  
+  <rect x="185" y="480" width="75" height="60" rx="10" fill="#E6D0E6"/>
+  <text x="222.5" y="518" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">9</text>
+  
+  <rect x="270" y="480" width="55" height="60" rx="10" fill="#F4A6D7"/>
+  <text x="297.5" y="518" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">/</text>
+  
+  <rect x="335" y="480" width="50" height="60" rx="10" fill="#BFA5D8"/>
+  <text x="360" y="518" font-family="Arial" font-size="18" fill="white" text-anchor="middle" font-weight="bold">x!</text>
+  
+  <!-- Fila 5 -->
+  <rect x="15" y="550" width="75" height="60" rx="10" fill="#E6D0E6"/>
+  <text x="52.5" y="588" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">4</text>
+  
+  <rect x="100" y="550" width="75" height="60" rx="10" fill="#E6D0E6"/>
+  <text x="137.5" y="588" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">5</text>
+  
+  <rect x="185" y="550" width="75" height="60" rx="10" fill="#E6D0E6"/>
+  <text x="222.5" y="588" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">6</text>
+  
+  <rect x="270" y="550" width="55" height="60" rx="10" fill="#F4A6D7"/>
+  <text x="297.5" y="588" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">×</text>
+  
+  <rect x="335" y="550" width="50" height="60" rx="10" fill="#BFA5D8"/>
+  <text x="360" y="588" font-family="Arial" font-size="16" fill="white" text-anchor="middle" font-weight="bold">1/x</text>
+  
+  <!-- Fila 6 -->
+  <rect x="15" y="620" width="75" height="60" rx="10" fill="#E6D0E6"/>
+  <text x="52.5" y="658" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">1</text>
+  
+  <rect x="100" y="620" width="75" height="60" rx="10" fill="#E6D0E6"/>
+  <text x="137.5" y="658" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">2</text>
+  
+  <rect x="185" y="620" width="75" height="60" rx="10" fill="#E6D0E6"/>
+  <text x="222.5" y="658" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">3</text>
+  
+  <rect x="270" y="620" width="55" height="60" rx="10" fill="#F4A6D7"/>
+  <text x="297.5" y="658" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">-</text>
+  
+  <rect x="335" y="620" width="50" height="60" rx="10" fill="#BFA5D8"/>
+  <text x="360" y="658" font-family="Arial" font-size="16" fill="white" text-anchor="middle" font-weight="bold">ANS</text>
+  
+  <!-- Fila 7 -->
+  <rect x="15" y="690" width="75" height="50" rx="10" fill="#D4A5D4"/>
+  <text x="52.5" y="723" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">±</text>
+  
+  <rect x="100" y="690" width="75" height="50" rx="10" fill="#E6D0E6"/>
+  <text x="137.5" y="723" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">0</text>
+  
+  <rect x="185" y="690" width="75" height="50" rx="10" fill="#E6D0E6"/>
+  <text x="222.5" y="723" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">.</text>
+  
+  <rect x="270" y="690" width="55" height="50" rx="10" fill="#F4A6D7"/>
+  <text x="297.5" y="723" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">+</text>
+  
+  <rect x="335" y="690" width="50" height="50" rx="10" fill="#F06292"/>
+  <text x="360" y="723" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">=</text>
+</svg>

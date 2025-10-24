@@ -1,0 +1,157 @@
+═══════════════════════════════════════════════════════════════════
+  CÓMO ACTUALIZAR TU PÁGINA WEB CON LOS ARCHIVOS DESCARGABLES
+═══════════════════════════════════════════════════════════════════
+
+¡YA ARREGLÉ EL PROBLEMA! Ahora los archivos descargables están incluidos.
+
+═══════════════════════════════════════════════════════════════════
+✅ LO QUE HICE:
+═══════════════════════════════════════════════════════════════════
+
+1. Creé las carpetas necesarias en "publicar/":
+   - dist/     (para Windows y Linux)
+   - macos/    (para macOS)
+   - android/  (para Android)
+
+2. Copié los archivos compilados:
+   ✓ CalculadoraProfesional-Windows.exe (5 MB)
+   ✓ CalculadoraProfesional-Linux.tar.gz (33 KB)
+   ✓ CalculadoraProfesional-macOS.zip (14 KB)
+
+3. Actualicé los enlaces en index.html para que apunten correctamente
+
+4. Desactivé temporalmente Android (no tienes el APK aún)
+
+═══════════════════════════════════════════════════════════════════
+📦 ESTRUCTURA DE LA CARPETA "PUBLICAR":
+═══════════════════════════════════════════════════════════════════
+
+publicar/
+├── index.html
+├── terminos.html
+├── privacidad.html
+├── styles.css
+├── script.js
+├── cookies.js
+├── screenshots/
+│   ├── basico.svg
+│   ├── cientifico.svg
+│   └── juego.svg
+├── dist/
+│   ├── CalculadoraProfesional-Windows.exe
+│   └── CalculadoraProfesional-Linux.tar.gz
+└── macos/
+    └── CalculadoraProfesional-macOS.zip
+
+═══════════════════════════════════════════════════════════════════
+🚀 CÓMO ACTUALIZAR TU PÁGINA:
+═══════════════════════════════════════════════════════════════════
+
+OPCIÓN 1: NETLIFY (Si usaste Netlify)
+──────────────────────────────────────
+1. Ve a: https://app.netlify.com
+2. Inicia sesión
+3. Haz clic en tu sitio
+4. Haz clic en "Deploys"
+5. Arrastra TODA la carpeta "publicar" a la zona de "Drag and drop"
+6. Espera 30 segundos
+7. ¡Listo! Refresca tu página web
+
+OPCIÓN 2: GITHUB PAGES (Si usaste GitHub)
+──────────────────────────────────────────
+1. Ve a tu repositorio en GitHub
+2. Haz clic en "Add file" → "Upload files"
+3. Arrastra TODOS los archivos de la carpeta "publicar"
+   (incluyendo las carpetas dist/ y macos/)
+4. Escribe: "Agregar archivos descargables"
+5. Haz clic en "Commit changes"
+6. Espera 2-3 minutos
+7. ¡Listo! Refresca tu página web
+
+OPCIÓN 3: VERCEL (Si usaste Vercel)
+────────────────────────────────────
+1. Ve a: https://vercel.com
+2. Haz clic en tu proyecto
+3. Haz clic en "Redeploy"
+4. O arrastra la carpeta "publicar" de nuevo
+5. ¡Listo!
+
+═══════════════════════════════════════════════════════════════════
+✅ VERIFICAR QUE FUNCIONA:
+═══════════════════════════════════════════════════════════════════
+
+Después de actualizar, abre tu página web y:
+
+1. Ve a la sección "Descargas"
+2. Haz clic en "Descargar .EXE" (Windows)
+   → Debe descargar un archivo de ~5 MB
+3. Haz clic en "Descargar .ZIP" (macOS)
+   → Debe descargar un archivo de ~14 KB
+4. Haz clic en "Descargar .TAR.GZ" (Linux)
+   → Debe descargar un archivo de ~33 KB
+5. El botón de Android dirá "Próximamente"
+
+Si todo funciona, ¡ya está! 🎉
+
+═══════════════════════════════════════════════════════════════════
+📱 PARA AGREGAR ANDROID EN EL FUTURO:
+═══════════════════════════════════════════════════════════════════
+
+Cuando tengas el APK de Android:
+
+1. Copia el archivo .apk a: publicar/android/calculadora.apk
+
+2. Edita publicar/index.html y busca la línea que dice:
+   onclick="alert('La versión de Android...
+
+3. Reemplázala con:
+   <a href="android/calculadora.apk" class="btn btn-download" download>
+       <span>⬇️ Descargar .APK</span>
+   </a>
+
+4. Vuelve a subir todo
+
+═══════════════════════════════════════════════════════════════════
+🔧 SOLUCIÓN DE PROBLEMAS:
+═══════════════════════════════════════════════════════════════════
+
+PROBLEMA: Los archivos aún no se descargan
+SOLUCIÓN: 
+- Asegúrate de subir las carpetas "dist" y "macos" completas
+- Verifica que los archivos estén dentro de esas carpetas
+- Espera 2-3 minutos después de subir
+
+PROBLEMA: Dice "404 Not Found"
+SOLUCIÓN:
+- Verifica que la estructura de carpetas sea correcta
+- Las carpetas deben estar al mismo nivel que index.html
+
+PROBLEMA: El archivo se descarga pero está corrupto
+SOLUCIÓN:
+- Asegúrate de subir los archivos en modo binario
+- No edites los archivos .exe, .tar.gz o .zip
+
+═══════════════════════════════════════════════════════════════════
+📊 TAMAÑOS DE ARCHIVOS:
+═══════════════════════════════════════════════════════════════════
+
+Windows:  ~5 MB   (CalculadoraProfesional-Windows.exe)
+macOS:    ~14 KB  (CalculadoraProfesional-macOS.zip)
+Linux:    ~33 KB  (CalculadoraProfesional-Linux.tar.gz)
+Android:  Pendiente
+
+Total: ~5.05 MB
+
+═══════════════════════════════════════════════════════════════════
+✨ RESUMEN:
+═══════════════════════════════════════════════════════════════════
+
+1. Ya arreglé los archivos en la carpeta "publicar"
+2. Ahora incluye los archivos descargables
+3. Solo necesitas volver a subir la carpeta "publicar" completa
+4. Los enlaces ya funcionan correctamente
+5. Android está desactivado temporalmente
+
+¡Vuelve a subir y todo funcionará! 🚀
+
+═══════════════════════════════════════════════════════════════════

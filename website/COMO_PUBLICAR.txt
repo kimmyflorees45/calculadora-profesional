@@ -1,0 +1,191 @@
+═══════════════════════════════════════════════════════════════════
+  CÓMO PUBLICAR TU PÁGINA WEB GRATIS
+═══════════════════════════════════════════════════════════════════
+
+Tienes 3 opciones GRATIS y muy fáciles para publicar tu página:
+
+═══════════════════════════════════════════════════════════════════
+🚀 OPCIÓN 1: NETLIFY (MÁS FÁCIL) ⭐ RECOMENDADO
+═══════════════════════════════════════════════════════════════════
+
+✅ Sin código
+✅ Arrastra y suelta
+✅ URL gratis (ejemplo: calculadora-profesional.netlify.app)
+✅ HTTPS automático
+✅ Actualización instantánea
+
+PASOS:
+
+1. Ve a: https://app.netlify.com/drop
+
+2. Arrastra TODA la carpeta "website" a la página
+   (o selecciona los archivos: index.html, styles.css, script.js, 
+   cookies.js, terminos.html, privacidad.html y la carpeta screenshots)
+
+3. ¡LISTO! Te dan una URL automáticamente
+
+4. (Opcional) Cambia el nombre:
+   - Haz clic en "Site settings"
+   - "Change site name"
+   - Pon: calculadora-profesional
+   - Tu URL será: calculadora-profesional.netlify.app
+
+VENTAJAS:
+✓ Lo más fácil (solo arrastrar)
+✓ Sin registro complicado
+✓ Actualizar es igual de fácil
+
+═══════════════════════════════════════════════════════════════════
+🐙 OPCIÓN 2: GITHUB PAGES (MÁS PROFESIONAL)
+═══════════════════════════════════════════════════════════════════
+
+✅ Gratis para siempre
+✅ URL: tuusuario.github.io/calculadora
+✅ Control de versiones
+✅ Muy confiable
+
+PASOS:
+
+1. Crea una cuenta en GitHub (si no tienes):
+   https://github.com/signup
+
+2. Crea un nuevo repositorio:
+   - Haz clic en "New repository"
+   - Nombre: calculadora-profesional
+   - Público
+   - Clic en "Create repository"
+
+3. Sube los archivos:
+   - Haz clic en "uploading an existing file"
+   - Arrastra todos los archivos de la carpeta website
+   - Clic en "Commit changes"
+
+4. Activa GitHub Pages:
+   - Ve a Settings (arriba)
+   - Pages (menú izquierdo)
+   - Source: Deploy from a branch
+   - Branch: main
+   - Folder: / (root)
+   - Clic en "Save"
+
+5. Espera 2-3 minutos y tu sitio estará en:
+   https://tuusuario.github.io/calculadora-profesional
+
+VENTAJAS:
+✓ Muy profesional
+✓ Historial de cambios
+✓ Fácil de actualizar
+
+═══════════════════════════════════════════════════════════════════
+⚡ OPCIÓN 3: VERCEL (RÁPIDO)
+═══════════════════════════════════════════════════════════════════
+
+✅ Muy rápido
+✅ URL gratis
+✅ Fácil actualización
+
+PASOS:
+
+1. Ve a: https://vercel.com/new
+
+2. Regístrate con GitHub, GitLab o email
+
+3. Arrastra la carpeta "website" o conecta tu repositorio
+
+4. ¡Listo! Te dan una URL automáticamente
+
+VENTAJAS:
+✓ Muy rápido
+✓ Buena para proyectos grandes
+
+═══════════════════════════════════════════════════════════════════
+📋 ARCHIVOS QUE DEBES SUBIR
+═══════════════════════════════════════════════════════════════════
+
+Asegúrate de subir TODOS estos archivos:
+
+✓ index.html
+✓ terminos.html
+✓ privacidad.html
+✓ styles.css
+✓ script.js
+✓ cookies.js
+✓ screenshots/basico.svg
+✓ screenshots/cientifico.svg
+✓ screenshots/juego.svg
+
+NO subas:
+✗ README.md (opcional)
+✗ INSTRUCCIONES_IMAGENES.txt
+✗ COMO_PUBLICAR.txt
+✗ abrir_website.bat
+✗ crear_placeholders.html
+
+═══════════════════════════════════════════════════════════════════
+🎯 MI RECOMENDACIÓN: NETLIFY
+═══════════════════════════════════════════════════════════════════
+
+Para empezar rápido, usa NETLIFY:
+
+1. Ve a: https://app.netlify.com/drop
+2. Arrastra la carpeta "website"
+3. ¡Listo en 30 segundos!
+
+Más adelante puedes:
+- Cambiar el nombre del sitio
+- Conectar un dominio propio
+- Actualizar arrastrando de nuevo
+
+═══════════════════════════════════════════════════════════════════
+🌐 DOMINIO PERSONALIZADO (OPCIONAL)
+═══════════════════════════════════════════════════════════════════
+
+Si quieres un dominio propio (ejemplo: calculadora.com):
+
+1. Compra un dominio en:
+   - Namecheap.com (~$10/año)
+   - GoDaddy.com
+   - Google Domains
+
+2. Conéctalo en Netlify/Vercel/GitHub Pages
+   (tienen guías fáciles)
+
+Pero NO es necesario, las URLs gratis funcionan perfecto:
+- calculadora-profesional.netlify.app
+- tuusuario.github.io/calculadora
+
+═══════════════════════════════════════════════════════════════════
+✅ DESPUÉS DE PUBLICAR
+═══════════════════════════════════════════════════════════════════
+
+1. Verifica que todo funcione:
+   ✓ Las 3 imágenes se ven
+   ✓ El banner de cookies aparece
+   ✓ Los enlaces a términos y privacidad funcionan
+   ✓ Los botones de descarga funcionan
+
+2. Comparte tu URL:
+   ✓ Redes sociales
+   ✓ WhatsApp
+   ✓ Email
+   ✓ Foros
+
+3. Para actualizar:
+   - Netlify: Arrastra los archivos nuevos
+   - GitHub: Sube los cambios
+   - Vercel: Push a tu repositorio
+
+═══════════════════════════════════════════════════════════════════
+🆘 AYUDA PASO A PASO
+═══════════════════════════════════════════════════════════════════
+
+¿Quieres que te ayude con alguna opción específica?
+
+Dime cuál prefieres:
+1. Netlify (más fácil)
+2. GitHub Pages (más profesional)
+3. Vercel (más rápido)
+
+Y te guío paso a paso con capturas de pantalla!
+
+═══════════════════════════════════════════════════════════════════

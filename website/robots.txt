@@ -1,0 +1,25 @@
+# robots.txt para Calculadora Científica Online
+
+# Permitir a todos los bots acceder a todo el sitio
+User-agent: *
+Allow: /
+
+# Bloquear acceso a archivos de configuración
+Disallow: /dist/
+Disallow: /publicar/
+Disallow: /*.bat$
+Disallow: /*.py$
+Disallow: /*.txt$
+
+# Sitemap
+Sitemap: https://descarga-calculadora-profesional.netlify.app/sitemap.xml
+
+# Rastreo específico para Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Rastreo específico para Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0

@@ -1,0 +1,114 @@
+═══════════════════════════════════════════════════════════════════
+  CÓMO ACTUALIZAR TU PÁGINA WEB AHORA
+═══════════════════════════════════════════════════════════════════
+
+NO, la página NO se actualiza sola. Tienes que volver a subir los
+archivos manualmente.
+
+═══════════════════════════════════════════════════════════════════
+🔄 SI USASTE NETLIFY:
+═══════════════════════════════════════════════════════════════════
+
+PASO 1: Ve a tu sitio
+1. Abre: https://app.netlify.com
+2. Inicia sesión
+3. Haz clic en tu sitio (calculadora-profesional o el nombre que tenga)
+
+PASO 2: Actualizar archivos
+1. Haz clic en "Deploys" (arriba)
+2. Verás una zona que dice "Need to update your site? Drag and drop..."
+3. Arrastra TODA la carpeta "publicar" ahí
+4. O haz clic en "browse to upload" y selecciona todo
+
+PASO 3: Esperar
+1. Netlify subirá los archivos (puede tardar 1-2 minutos por el APK)
+2. Verás una barra de progreso
+3. Cuando diga "Published", ¡listo!
+
+PASO 4: Verificar
+1. Abre tu página web
+2. Presiona Ctrl+F5 para refrescar (limpiar caché)
+3. Prueba las 4 descargas
+
+═══════════════════════════════════════════════════════════════════
+🔄 SI USASTE GITHUB PAGES:
+═══════════════════════════════════════════════════════════════════
+
+OPCIÓN A: Subir archivos nuevos (Más fácil)
+──────────────────────────────────────────────
+1. Ve a tu repositorio en GitHub
+2. Haz clic en "Add file" → "Upload files"
+3. Arrastra TODOS los archivos de la carpeta "publicar"
+   (Incluyendo las carpetas dist, macos y android)
+4. Escribe: "Agregar archivos descargables"
+5. Haz clic en "Commit changes"
+6. Espera 2-3 minutos
+7. Refresca tu página web (Ctrl+F5)
+
+OPCIÓN B: Reemplazar todo (Más limpio)
+───────────────────────────────────────
+1. Ve a tu repositorio
+2. Elimina los archivos viejos uno por uno
+3. Sube todos los archivos nuevos de "publicar"
+4. Commit changes
+5. Espera 2-3 minutos
+
+═══════════════════════════════════════════════════════════════════
+🔄 SI USASTE VERCEL:
+═══════════════════════════════════════════════════════════════════
+
+1. Ve a: https://vercel.com
+2. Inicia sesión
+3. Haz clic en tu proyecto
+4. Haz clic en "Redeploy" o "Settings"
+5. Sube los archivos nuevos
+6. Espera 1-2 minutos
+
+═══════════════════════════════════════════════════════════════════
+⚠️ IMPORTANTE:
+═══════════════════════════════════════════════════════════════════
+
+1. Debes subir TODA la carpeta "publicar" completa
+2. Incluye las 3 subcarpetas: dist/, macos/ y android/
+3. El APK pesa 38 MB, puede tardar en subir
+4. Después de actualizar, limpia el caché (Ctrl+F5)
+
+═══════════════════════════════════════════════════════════════════
+✅ ARCHIVOS QUE DEBES SUBIR:
+═══════════════════════════════════════════════════════════════════
+
+Archivos principales:
+✓ index.html
+✓ terminos.html
+✓ privacidad.html
+✓ styles.css
+✓ script.js
+✓ cookies.js
+
+Carpeta screenshots:
+✓ screenshots/basico.svg
+✓ screenshots/cientifico.svg
+✓ screenshots/juego.svg
+
+Carpeta dist:
+✓ dist/CalculadoraProfesional-Windows.exe (10 MB)
+✓ dist/CalculadoraProfesional-Linux.tar.gz (33 KB)
+
+Carpeta macos:
+✓ macos/CalculadoraProfesional-macOS.zip (14 KB)
+
+Carpeta android:
+✓ android/calculadora.apk (38 MB)
+
+═══════════════════════════════════════════════════════════════════
+🎯 RESUMEN:
+═══════════════════════════════════════════════════════════════════
+
+1. NO se actualiza sola
+2. Tienes que volver a subir la carpeta "publicar"
+3. Usa el mismo método que usaste la primera vez
+4. Espera 1-3 minutos después de subir
+5. Refresca tu página con Ctrl+F5
+6. ¡Listo! Las descargas funcionarán
+
+═══════════════════════════════════════════════════════════════════

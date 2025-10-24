@@ -1,0 +1,126 @@
+═══════════════════════════════════════════════════════════════════
+  CÓMO TOMAR CAPTURAS DE PANTALLA PARA LA WEB
+═══════════════════════════════════════════════════════════════════
+
+Para que tu página web muestre las capturas reales de la calculadora,
+necesitas tomar screenshots y guardarlas aquí.
+
+═══════════════════════════════════════════════════════════════════
+📸 CAPTURAS NECESARIAS
+═══════════════════════════════════════════════════════════════════
+
+Necesitas 4 imágenes con estos nombres EXACTOS:
+
+1. windows.png       → Calculadora en modo básico (Windows)
+2. macos.png         → Calculadora en modo básico (macOS)
+3. linux.png         → Calculadora en modo básico (Linux)
+4. cientifico.png    → Calculadora en modo científico
+
+═══════════════════════════════════════════════════════════════════
+🪟 CÓMO TOMAR CAPTURAS EN WINDOWS
+═══════════════════════════════════════════════════════════════════
+
+OPCIÓN 1: Recortes (Recomendado)
+1. Abre la calculadora
+2. Presiona: Windows + Shift + S
+3. Selecciona el área de la calculadora
+4. La captura se copia al portapapeles
+5. Abre Paint (o cualquier editor)
+6. Pega (Ctrl + V)
+7. Guarda como PNG con el nombre correcto
+
+OPCIÓN 2: Impr Pant
+1. Abre la calculadora
+2. Presiona: Alt + Impr Pant (captura solo la ventana activa)
+3. Abre Paint
+4. Pega (Ctrl + V)
+5. Recorta si es necesario
+6. Guarda como PNG
+
+═══════════════════════════════════════════════════════════════════
+🍎 CÓMO TOMAR CAPTURAS EN macOS
+═══════════════════════════════════════════════════════════════════
+
+1. Abre la calculadora
+2. Presiona: Cmd + Shift + 4
+3. Presiona: Barra espaciadora
+4. Haz clic en la ventana de la calculadora
+5. La captura se guarda en el escritorio
+6. Renombra a: macos.png
+7. Mueve a esta carpeta
+
+═══════════════════════════════════════════════════════════════════
+🐧 CÓMO TOMAR CAPTURAS EN LINUX
+═══════════════════════════════════════════════════════════════════
+
+OPCIÓN 1: Gnome Screenshot
+1. Abre la calculadora
+2. Presiona: Alt + Impr Pant
+3. Guarda como: linux.png
+
+OPCIÓN 2: Comando
+1. Abre terminal
+2. Ejecuta: gnome-screenshot -w
+3. Haz clic en la ventana de la calculadora
+4. Guarda como: linux.png
+
+═══════════════════════════════════════════════════════════════════
+💡 CONSEJOS PARA BUENAS CAPTURAS
+═══════════════════════════════════════════════════════════════════
+
+✓ Usa el modo básico para windows.png, macos.png y linux.png
+✓ Usa el modo científico para cientifico.png
+✓ Asegúrate de que la ventana esté completa
+✓ Evita fondos muy oscuros o muy claros
+✓ Centra bien la ventana antes de capturar
+✓ Guarda en formato PNG (mejor calidad)
+✓ Tamaño recomendado: 400-800px de ancho
+
+═══════════════════════════════════════════════════════════════════
+📝 NOMBRES DE ARCHIVO (IMPORTANTES)
+═══════════════════════════════════════════════════════════════════
+
+EXACTAMENTE estos nombres (minúsculas, con .png):
+
+✓ windows.png
+✓ macos.png
+✓ linux.png
+✓ cientifico.png
+
+NO uses:
+✗ Windows.png
+✗ windows.PNG
+✗ windows.jpg
+✗ captura_windows.png
+
+═══════════════════════════════════════════════════════════════════
+🎨 ALTERNATIVA: USAR IMÁGENES TEMPORALES
+═══════════════════════════════════════════════════════════════════
+
+Si no tienes acceso a todas las plataformas, puedes:
+
+1. Tomar 2 capturas en Windows:
+   - Una en modo básico → windows.png
+   - Una en modo científico → cientifico.png
+
+2. Copiar windows.png como:
+   - macos.png
+   - linux.png
+
+3. Más adelante, reemplázalas con capturas reales
+
+═══════════════════════════════════════════════════════════════════
+✅ VERIFICAR QUE FUNCIONAN
+═══════════════════════════════════════════════════════════════════
+
+1. Guarda las 4 imágenes en esta carpeta
+2. Abre index.html en el navegador
+3. Ve a la sección "Capturas de Pantalla"
+4. Deberías ver tus imágenes
+
+Si no se ven:
+- Verifica los nombres de archivo
+- Verifica que estén en formato PNG
+- Actualiza la página (F5)
+
+═══════════════════════════════════════════════════════════════════
