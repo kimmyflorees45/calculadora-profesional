@@ -1,6 +1,6 @@
 [build]
   base = "website"
-  publish = "website"
+  publish = "."
   command = ""
 
 # Ignorar requirements.txt - no necesitamos Python en Netlify
